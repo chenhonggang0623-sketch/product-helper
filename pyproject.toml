@@ -1,0 +1,28 @@
+[project]
+name = "product-helper"
+version = "1.0.0"
+description = "Enterprise product document QA assistant"
+requires-python = ">=3.14"
+dependencies = [
+    "gradio>=6.16.0",
+    "markdown>=3.10.2",
+    "openai>=2.41.0",
+    "openpyxl>=3.1.5",
+    "pillow>=12.2.0",
+    "pymupdf>=1.27.2.3",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "gradio>=5.0",
+    "qdrant-client>=1.12",
+    "openai>=1.55",
+    "PyMuPDF>=1.25",
+    "python-docx>=1.1",
+    "markdown>=3.7",
+    "python-dotenv>=1.0",
+    "Pillow>=11.0",
+]

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.env
+uploads/*
+!uploads/.gitkeep
+extracted_images/*
+!extracted_images/.gitkeep
